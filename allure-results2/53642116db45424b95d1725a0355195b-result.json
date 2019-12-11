@@ -1,0 +1,35 @@
+{
+  "uuid": "f87b0839afac48269414be30ee6df5a7",
+  "historyId": "GoToUrlAndClick",
+  "fullName": "GoToUrlAndClick",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "Worker#5"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-OPLQ6N7K"
+    },
+    {
+      "name": "feature",
+      "value": "GoToUrlAndClick"
+    }
+  ],
+  "links": [],
+  "name": "GoToUrlAndClick",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Interface cannot be resolved: OpenQA.Selenium.IWebDriver",
+    "trace": "BoDi.ObjectContainerException: Interface cannot be resolved: OpenQA.Selenium.IWebDriver\r\n   at BoDi.ObjectContainer.TypeRegistration.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.Resolve[T](String name)\r\n   at BoDi.ObjectContainer.Resolve[T]()\r\n   at SimpleDI.TestSettings.TestSettings.AfterScenario() in C:\\Users\\Harshit Agarwal\\Downloads\\simplespecflowproject-master\\SimpleDI\\TestSettings\\TestSettings.cs:line 31\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1575305544370,
+  "stop": 1575305544379
+}

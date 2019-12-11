@@ -1,0 +1,49 @@
+{
+  "uuid": "5b6e4c2be6184a2483bcbd6ae3b288a7",
+  "historyId": "GoToUrl",
+  "fullName": "GoToUrl",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "Worker#8"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-OPLQ6N7K"
+    },
+    {
+      "name": "feature",
+      "value": "SimpleFeatureFile"
+    }
+  ],
+  "links": [],
+  "name": "GoToUrl",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I entered to \"google.pl\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1575306504739,
+      "stop": 1575306504777
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1575306504699,
+  "stop": 1575306504784
+}
